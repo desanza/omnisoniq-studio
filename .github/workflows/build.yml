@@ -2,10 +2,10 @@ name: Build Omnisoniq Studio VST3
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
     tags:    [ 'v*' ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, master ]
   workflow_dispatch:   # Manual trigger from GitHub UI
 
 jobs:

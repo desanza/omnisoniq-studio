@@ -1,0 +1,7 @@
+build/
+*.user
+*.suo
+.vs/
+*.aps
+OmnisoniqStudio_v*_Windows_x64/
+OmnisoniqStudio_v*_Windows_x64.zip

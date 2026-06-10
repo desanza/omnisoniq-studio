@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/desan/Downloads/**)",
+      "Bash(powershell -Command \"Expand-Archive -Path 'Omnisoniq.zip' -DestinationPath 'Omnisoniq_extracted' -Force\")",
+      "Bash(cmake --version)",
+      "Bash(where cl.exe)",
+      "Bash(where git *)",
+      "Bash(where msbuild *)",
+      "Bash(winget --version)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(winget install *)"
+    ]
+  }
+}
